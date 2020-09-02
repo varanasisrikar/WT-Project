@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sterling Institute of Technology</title>
+  </head>
+
+  <body>
+
+    <div class="w3-top">
+      <ul class="w3-navbar w3-medium w3-white w3-card-2 w3-left-align w3-animate-top">
+        <li class="w3-hide-medium w3-hide-large w3-black w3-opennav w3-right">
+          <a href="javascript:void(0);" onclick="menu()" class="w3-white">☰</a>
+        </li>
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li class="w3-hide-small">
+          <a href="event.html">Events</a>
+        </li>
+        <li class="w3-hide-small">
+          <a href="gallery.html">Gallery</a>
+        </li>
+        <li class="w3-hide-small">
+          <a href="placement.html">Placements</a>
+        </li>
+        <li class="w3-hide-small">
+          <a href="admission.html">Admission</a>
+        </li>
+        <li class="w3-hide-small">
+          <a href="contact.html">Contact Us</a>
+        </li>
+      </ul>
+
+      <div id="fullNav" class="w3-hide w3-card-2 w3-hide-large w3-hide-medium">
+
+        <ul class="w3-navbar w3-left-align w3-medium w3-white">
+          <li>
+            <a href="event.html">Events</a>
+          </li>
+          <li>
+            <a href="gallery.html">Gallery</a>
+          </li>
+          <li>
+            <a href="placement.html">Placements</a>
+          </li>
+          <li>
+            <a href="admission.html">Admission</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+    <br>
+    <br>
+    <div class="w3-container x">
+
+      <div class="w3-card-4 w3-padding card-container bdr">
+        <div class="w3-center">
+          <br>
+          <img src="images/logo.png" class="w3-animate-zoom"/>
+          <br>
+        </div>
+
+        <div>
+          <br>
+          <span class="w3-animate-right">About Manav Rachna University</span>
+          <p class="about w3-animate-left">
+
+            Manav Rachna Educational Institutions (MREI) founded in 1997, has grown to become one of the best educational entities in the country and is recognized for excellence in professional education and research. A brainchild of the Founder Visionary Dr O.P. Bhalla, a renowned educationist and philanthropist, MREI now encompasses a group of the many vibrant, world class institutions. The Institutions and the programs offered by them are given in succeeding paragraphs.
+            <br>
+            Manav Rachna International Institute of Research and Studies, a NAAC accredited ‘A’ grade university, is a continuum of excellence from the Career Institute of Technology and Management (CITM), and was granted ‘Deemed-to be-University’ Status under section 3 of the UGC Act 1956. Recently, the university has been awarded 5 Star QS rating for teaching, facilities &amp; employability and an overall rating of 3 stars. It is a visible symbol of knowledge &amp; experience providing high quality education in the fields of Engineering &amp; Technology, Health &amp; Applied Sciences, Management, Computer Applications, Hotel Management, International Programmes, Commerce, Humanities, Media, Architecture, Design and many more.
+          </p>
+
+        </div>
+
+        <div class="footer w3-card-4">
+          Design &amp; Developed By: Chandan Kumar
+        </div>
+      </div>
+
+      <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+          showDivs(slideIndex += n);
+        }
+
+        function showDivs(n) {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          if (n > x.length) {
+            slideIndex = 1
+          }
+          if (n < 1) {
+            slideIndex = x.length
+          }
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+          }
+          x[slideIndex - 1].style.display = "block";
+        }
+      </script>
+
+    </body>
+
+  </html>
