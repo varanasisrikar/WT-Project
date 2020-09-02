@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Departments
+        </title>
+        <style>
+            #jntuheader{
+                background:  #ffffffd3;
+            }
+            #jntuheader .jntu, .address, .exa{
+                color: #2f0952d3
+            }
+            #jntuheader .jntu{
+                font-size: x-large;
+                padding: 10px;
+            }
+            #jntuheader .address{
+                font-size : large;
+                padding: 5px;
+            }
+            #jntuheader .exa{
+
+                font-size : xx-large;
+                padding: 5px;
+            }
+            .departments{
+                position: fixed;
+                width: 75%;
+                height: 35%;
+                top: 25%;
+                left: 10%;
+                margin-left: -(dialogwidth/2);
+                margin-top: -(dialogheight/2);
+                background  : #ffffffd3;
+            }
+            .depts{
+                width: 400px;
+                height: 40px;
+                background-color: #ffffffd3;
+                border: 1px solid #6621c028;
+                padding: 10px;
+                margin: 5px;
+                color: #2f0952d3;
+                font-weight: 100;
+            }
+            #dept-table{
+                border-collapse: collapse;
+                padding: 5px;
+            }
+        </style>
+    </head>
+    <body style="background-color:rgb(156, 150, 192);">
+        <div id="jntuheader">
+            <td height="104" colspan="3" align="right" valign="bottom">
+                <table width="90%" border="0" cellspacing="0" cellpadding="0">
+                    <tbody>
+                        <tr>
+                            <td width="9%" height="120" align="center" valign="top">
+                                <img src="logo.png" height="100%" alt="JNTU Hyderabad Logo">
+                            </td>
+                            <td width="58%" align="left" valign="middle" class="jntu">
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tbody>
+                                    <tr>
+                                        <td align="center" valign="top" class="exa">Departments</td>
+                                    </tr>
+                                    <tr>
+                                    <td align="center" valign="top"> <span class="jntu">Sterling Institute of Technology<br></span></td>
+                                    </tr>
+                                    <tr>
+                                    <td height="20" align="center" valign="middle"><span class="address">Hyderabad, India</span></td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+        </div>
+        <div class="departments">
+            <table id="dept-table">
+                <tr style="background-color: #a172dd28;color: black; margin: 10px;">
+                    <th class="depts" style="color:rgb(0, 0, 0) !important"> Department</th>
+                    <th class="depts" style="color:rgb(0, 0, 0) !important"> Info</th>
+                    <th class="depts" style="color:rgb(0, 0, 0) !important"> Seats</th>
+                </tr>
+                <tr class="depts">
+                    <th class="depts"> CSE</th>
+                    <th class="depts"> Computer Science Engineering</th>
+                    <th class="depts">240</th>
+                </tr>
+                <tr class="depts">
+                    <th class="depts"> ML </th>
+                    <th class="depts"> Machine Learning</th>
+                    <th class="depts">120</th>
+                </tr>
+                <tr class="depts">
+                    <th class="depts"> IT</th>
+                    <th class="depts"> Information Technology</th>
+                    <th class="depts">120</th>
+                </tr>
+                <tr class="depts">
+                    <th class="depts"> ECE</th>
+                    <th class="depts"> Electronics</th>
+                    <th class="depts">80</th>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
