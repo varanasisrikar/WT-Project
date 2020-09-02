@@ -4,16 +4,16 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="w3.css">
+    <link rel="stylesheet" href="stylesheet.css">
     <title>Sterling Institute of Technology</title>
   </head>
 
   <body>
 
-    <div class="w3-top">
+    <div class="top">
       <ul class="w3-navbar w3-medium w3-white w3-card-2 w3-left-align w3-animate-top">
-        <li class="w3-hide-medium w3-hide-large w3-black w3-opennav w3-right">
-          <a href="javascript:void(0);" onclick="menu()" class="w3-white">☰</a>
-        </li>
+        <li class="w3-hide-medium w3-hide-large w3-black w3-opennav w3-right"></li>
         <li>
           <a href="#">Home</a>
         </li>
@@ -56,19 +56,15 @@
       </div>
 
     </div>
-    <br>
-    <br>
+
     <div class="w3-container x">
 
       <div class="w3-card-4 w3-padding card-container bdr">
-        <div class="w3-center">
-          <br>
-          <img src="images/logo.png" class="w3-animate-zoom"/>
-          <br>
+        <div class="w3-left-align">
+          <img src="Logo.jfif" class="w3-animate-zoom"/>
         </div>
 
         <div>
-          <br>
           <span class="w3-animate-right">About Manav Rachna University</span>
           <p class="about w3-animate-left">
 
@@ -78,36 +74,7 @@
           </p>
 
         </div>
-
-        <div class="footer w3-card-4">
-          Design &amp; Developed By: Chandan Kumar
-        </div>
       </div>
-
-      <script>
-        var slideIndex = 1;
-        showDivs(slideIndex);
-
-        function plusDivs(n) {
-          showDivs(slideIndex += n);
-        }
-
-        function showDivs(n) {
-          var i;
-          var x = document.getElementsByClassName("mySlides");
-          if (n > x.length) {
-            slideIndex = 1
-          }
-          if (n < 1) {
-            slideIndex = x.length
-          }
-          for (i = 0; i < x.length; i++) {
-            x[i].style.display = "none";
-          }
-          x[slideIndex - 1].style.display = "block";
-        }
-      </script>
-
     </body>
 
   </html>

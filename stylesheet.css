@@ -117,14 +117,6 @@ table {
     table-layout: fixed;
     width: 100%;
 }
-table caption { margin: 2rem 0; }
-table thead { text-align: center; }
-table tbody { text-align: right; }
-table tr { border-bottom: 1px solid var(--primary-color); }
-table tbody tr:nth-child(even) { background: var(--tertiary-color); }
-table th { background: var(--secondary-color); font-weight: bold; }
-table th, table td { padding: 1rem; }
-table th:not(last-of-type), table td:not(last-of-type) { border-right: 1px solid var(--primary-color); }
 
 input { border: 1px solid var(--text-color); padding: 0.8rem; }
 input:focus, input:active { background-color: var(--secondary-color); border-color: var(--link-color); }
