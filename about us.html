@@ -2,7 +2,9 @@
 <html>
 
   <head>
-    <title>Sterling Institute of Technology</title>
+    <title>
+      About Us
+    </title>
     <style>
       #sitheader {
         background: #ffffffd3;
@@ -10,7 +12,8 @@
 
       #sitheader .sit,
       .address,
-      .exa {
+      .exa,
+      h1 {
         color: #2f0952d3;
       }
 
@@ -25,9 +28,28 @@
       }
 
       #sitheader .exa {
-
         font-size: xx-large;
         padding: 5px;
+      }
+
+      #content {
+        position: relative;
+        width: 84%;
+        height: 70%;
+        top: 20%;
+        left: 5%;
+        margin-left: -(dialogwidth/2);
+        margin-top: -(dialogheight/2);
+        background: #ffffffd3;
+      }
+
+      #content .block {
+        position: relative;
+        padding: 5px;
+        margin-left: -(dialogwidth/2);
+        margin-top: -(dialogheight/2);
+        background: #ffffffd3;
+
       }
     </style>
     <link rel="stylesheet" href="w3.css">
@@ -96,6 +118,36 @@
           </li>
         </ul>
       </div>
-    </body>
 
-  </html>
+      <h1 align="center">About Us</h1>
+      <div id="content">
+        <div class="block">
+          <p style="color : #2f0952d3; font-size: larger">
+            Vision and Mission</p>
+          <hr>
+          <p align="left" style="color:#2f0952d3; font-weight: 400; font-size: large;">Vision of the College</p>
+          <ol type="1" align="left" style="color:rgba(72, 63, 126, 0.904); font-weight: 400; font-size: large;">
+            <li>To produce highly skilled, globally competent engineers.</li>
+            <li>Producing quality graduates trained in the latest software technologies and related tools and striving to make India a world leader in software products and services.</li>
+          </ol>
+          <p align="left" style="color:#2f0952d3; font-weight: 400; font-size: large;">Mission of the College</p>
+          <ol type="1" align="left" style="color:rgba(72, 63, 126, 0.904); font-weight: 400; font-size: large;">
+            <li>To provide exposure to students on latest hardware and software tools.</li>
+            <li>To promote research based projects/activities in the emerging areas of technology convergence.</li>
+            <li>To encourage and enable students to not merely seek jobs from the industry but also to create new enterprises.</li>
+            <li>To support the faculty to accelerate their learning curve to deliver excellent service to students.</li>
+            <li>To provide a learning environment that inculcates problem solving skills, professional, ethical responsibilities, lifelong learning through multi modal platforms and prepare students to become successful professionals.</li>
+            <li>To establish industry interaction to make students ready for the industry.</li>
+          </ol>
+        </p>
+        <p style="color : #2f0952d3; font-size: larger;">
+          Message from the Founder</p>
+        <hr>
+        <p align="left" style="color:rgba(72, 63, 126, 0.904); font-weight: 400; font-size: large;">
+          Sterling Institute of Technology has been serving as a comprehensive institution of higher education. SIT promotes research, on-site industry executive training and service. We have extensive ties with leading engineering and research community, are able to bring the best scientist and engineers into our programs as visiting faculty and guest speakers.
+        </p>
+      </div>
+    </div>
+  </body>
+
+</html>

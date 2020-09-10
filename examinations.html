@@ -3,9 +3,28 @@
 
   <head>
     <title>
-      Departments
+      Examinations
     </title>
     <style>
+      #loginform {
+        position: relative;
+        width: 25%;
+        height: 65%;
+        top: 20%;
+        left: 40%;
+        background: #2f0952d3;
+      }
+
+      .form-input,
+      .form-label {
+        padding: 8px;
+        color: snow;
+      }
+
+      .line {
+        width: 60%;
+      }
+
       #sitheader {
         background: #ffffffd3;
       }
@@ -18,12 +37,12 @@
       }
 
       #sitheader .sit {
-        font-size: x-large;
+        font-size: large;
         padding: 10px;
       }
 
       #sitheader .address {
-        font-size: large;
+        font-size: small;
         padding: 5px;
       }
 
@@ -33,7 +52,16 @@
         padding: 5px;
       }
 
-      .departments {
+      #sitheader .login_here {
+        font-size: x-large;
+        color: snow;
+      }
+
+      #signup {
+        color: rgb(35, 209, 128);
+      }
+
+      .examinations {
         position: relative;
         width: 75%;
         height: 35%;
@@ -42,6 +70,11 @@
         margin-left: -(dialogwidth/2);
         margin-top: -(dialogheight/2);
         background: #ffffffd3;
+      }
+
+      #time-table {
+        border-collapse: collapse;
+        padding: 5px;
       }
 
       .depts {
@@ -55,8 +88,7 @@
         font-weight: 100;
       }
 
-      #dept-table {
-        border-collapse: collapse;
+      .sign_up_btn {
         padding: 5px;
       }
     </style>
@@ -126,48 +158,81 @@
           </li>
         </ul>
       </div>
-      <h1 align="center">Departments</h1>
-      <div class="departments">
-        <table id="dept-table">
-          <tr style="background-color: #a172dd28;color: black; margin: 10px;">
-            <th class="depts" style="color:rgb(0, 0, 0) !important">
-              Department</th>
-            <th class="depts" style="color:rgb(0, 0, 0) !important">
-              Info</th>
-            <th class="depts" style="color:rgb(0, 0, 0) !important">
-              Seats</th>
-          </tr>
-          <tr class="depts">
-            <th class="depts">
-              CSE</th>
-            <th class="depts">
-              Computer Science Engineering</th>
-            <th class="depts">240</th>
-          </tr>
-          <tr class="depts">
-            <th class="depts">
-              ML
-            </th>
-            <th class="depts">
-              Machine Learning</th>
-            <th class="depts">120</th>
-          </tr>
-          <tr class="depts">
-            <th class="depts">
-              IT</th>
-            <th class="depts">
-              Information Technology</th>
-            <th class="depts">120</th>
-          </tr>
-          <tr class="depts">
-            <th class="depts">
-              ECE</th>
-            <th class="depts">
-              Electronics</th>
-            <th class="depts">80</th>
-          </tr>
-        </table>
-      </div>
-    </body>
+      <form action="http://jntuhhresults.in" method="post" id="login"></form>
+      <div id="loginform">
+        <div class="login_here">
+          <p align="center">
+            LOGIN
+          </p>
+          <hr>
+        </div>
 
-  </html>
+        <div class="form-label" align="center">
+          <label for="username">Username</label>
+        </div>
+        <div class="form-input" align="center">
+          <input type="text" name="username" id="username" placeholder="Username" style="height: 40px;width: 16em;" value=""/>
+        </div>
+        <div class="form-label" align="center">
+          <label for="password">Password</label>
+        </div>
+        <div class="form-input" align="center">
+          <input type="password" name="password" id="password" placeholder="Password" style="height: 40px;width: 16em; " value=""/>
+        </div>
+        <div class="form-input" align="center">
+          <input type="submit" id="loginbtn" size="30" value="Log in"/>
+        </div>
+        <hr class="line" align="center">
+        <div id="signup" align="center">
+          <label for="sign_up_btn">Not Registered?
+          </label>
+          <input type="submit" id="sign_up_btn" value="Sign Up"/>
+        </div>
+      </div>
+    </form>
+    <h1 align="center">Departments</h1>
+    <div class="departments">
+      <table id="time-table">
+        <tr style="background-color: #a172dd28;color: black; margin: 10px;">
+          <th class="depts" style="color:rgb(0, 0, 0) !important">
+            Department</th>
+          <th class="depts" style="color:rgb(0, 0, 0) !important">
+            Info</th>
+          <th class="depts" style="color:rgb(0, 0, 0) !important">
+            Seats</th>
+        </tr>
+        <tr class="depts">
+          <th class="depts">
+            CSE</th>
+          <th class="depts">
+            Computer Science Engineering</th>
+          <th class="depts">240</th>
+        </tr>
+        <tr class="depts">
+          <th class="depts">
+            ML
+          </th>
+          <th class="depts">
+            Machine Learning</th>
+          <th class="depts">120</th>
+        </tr>
+        <tr class="depts">
+          <th class="depts">
+            IT</th>
+          <th class="depts">
+            Information Technology</th>
+          <th class="depts">120</th>
+        </tr>
+        <tr class="depts">
+          <th class="depts">
+            ECE</th>
+          <th class="depts">
+            Electronics</th>
+          <th class="depts">80</th>
+        </tr>
+      </table>
+    </div>
+
+  </body>
+
+</html>
