@@ -10,7 +10,8 @@
 
       #sitheader .sit,
       .address,
-      .exa {
+      .exa,
+      h1 {
         color: #2f0952d3;
       }
 
@@ -29,7 +30,58 @@
         font-size: xx-large;
         padding: 5px;
       }
+
+      .regulations {
+        position: relative;
+        width: 75%;
+        height: 35%;
+        top: 25%;
+        left: 10%;
+        margin-left: -(dialogwidth/2);
+        margin-top: -(dialogheight/2);
+        background: #ffffffd3;
+      }
+
+      .regs {
+        width: 400px;
+        height: 40px;
+        background-color: #ffffffd3;
+        border: 1px solid #6621c028;
+        padding: 10px;
+        margin: 5px;
+        color: #2f0952d3;
+        font-weight: 100;
+      }
+
+      #reg-table {
+        border-collapse: collapse;
+        padding: 5px;
+      }
+
+      #content {
+        position: relative;
+        width: 84%;
+        height: 70%;
+        top: 20%;
+        left: 5%;
+        margin-left: -(dialogwidth/2);
+        margin-top: -(dialogheight/2);
+        background: #ffffffd3;
+      }
+
+      #content .block {
+        position: relative;
+        padding: 5px;
+        margin-left: -(dialogwidth/2);
+        margin-top: -(dialogheight/2);
+        background: #ffffffd3;
+
+      }
     </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js "></script>
+    <link rel="stylesheet" href="styles/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles/css/w3.css">
   </head>
 
@@ -60,7 +112,6 @@
           </tbody>
         </table>
       </div>
-
       <div class="top">
         <ul class="w3-navbar w3-medium w3-white w3-card-2 w3-left-align">
           <li class="w3-hide-medium w3-hide-large w3-black w3-opennav w3-right"></li>
@@ -96,6 +147,70 @@
           </li>
         </ul>
       </div>
-    </body>
+      <h1 align="center">Academics</h1>
+      <div class="accordion">
+        <div id="card">
+          <div class="card-header" id="headingOne">
+            <h2 class="mb-0">
+              <button class="btn " type="button" data-toggle="collapse" data-target="#regulations" aria-expanded="true" aria-controls="collapseOne">
+                Regulations
+              </button>
+            </h2>
+          </div>
+          <div id="regulations">
+            <div id="content">
+              <p style="color : #2f0952d3; font-size: larger">Regulations</p>
+              <p align="left" style="color:rgba(72, 63, 126, 0.904); font-weight: 400; font-size: large;">
+                Students are evaluated on a continuous basis each academic year which consists of two semesters with each semester providing a minimum of seventeen weeks of instructions. Evaluation comprises of Continuous Internal Evaluation(CIE) ans Semester End Examination (SEE). The rigours of academic study at each level are balanced with a number of other related activities which include co-curricular activities.
+              </p>
+              <p align="left" style="color:rgba(72, 63, 126, 0.904); font-weight: 400; font-size: large;">
+                Special lectures on varied topic of academic relevance are held under the Extra Mural Lecture series. A number of conferences, symposia and workshops are organized by the faculty which attract participation from scholars from all corners of India and abroad Guest lectures and industrial visits complement classroom interactions.
+              </p>
+              <p align="left" style="color:rgba(72, 63, 126, 0.904); font-weight: 400; font-size: large;">
+                The academic atmosphere at the Institute is a rare blend of modern day technical skills and the traditional emphasis on imparting knowledge. All the academic activities at institute are monitored by Dean Academic Affairs and can be viewed through the academic calendar, time tables of individual programmes, examination schedules and yearly college diary.
+              </p>
+              <div class="regulations">
+                <table class="reg-table">
+                  <thead class="regs">
+                    <tr class="regs">
+                      <th class="regs">S.No</th>
+                      <th class="regs">Academic Year</th>
+                      <th class="regs">I Year</th>
+                      <th class="regs">II Year</th>
+                      <th class="regs">III Year</th>
+                      <th class="regs">IV Year</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="regs">
+                      <th class="regs">1</td>
+                      <th class="regs">2020-21</td>
+                      <th class="regs">R18</td>
+                      <th class="regs">R16</td>
+                      <th class="regs">R16</td>
+                      <th class="regs">R16</td>
+                    </tr>
+                    <tr class="regs">
+                      <th class="regs">2</td>
+                      <th class="regs">2019-20</td>
+                      <th class="regs">R18</td>
+                      <th class="regs">R16</td>
+                      <th class="regs">R16</td>
+                      <th class="regs">R16</td>
+                    </tr>
+                    <tr class="regs">
+                      <th class="regs">3</td>
+                      <th class="regs">2018-19</td>
+                      <th class="regs">R18</td>
+                      <th class="regs">R16</td>
+                      <th class="regs">R16</td>
+                      <th class="regs">R15</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </body>
 
-  </html>
+      </html>
