@@ -32,8 +32,59 @@
         font-size: xx-large;
         padding: 5px;
       }
+
+      .placements {
+        position: relative;
+        width: 75%;
+        height: 35%;
+        top: 25%;
+        left: 10%;
+        margin-left: -(dialogwidth/2);
+        margin-top: -(dialogheight/2);
+        background: #ffffffd3;
+      }
+
+      .pmnts {
+        width: 400px;
+        height: 40px;
+        background-color: #ffffffd3;
+        border: 1px solid #6621c028;
+        padding: 10px;
+        margin: 5px;
+        color: #2f0952d3;
+        font-weight: 100;
+      }
+
+      #pmnt-table {
+        border-collapse: collapse;
+        padding: 5px;
+      }
+
+      #content {
+        position: relative;
+        width: 90%;
+        height: 70%;
+        top: 20%;
+        left: 5%;
+        margin-left: -(dialogwidth/2);
+        margin-top: -(dialogheight/2);
+        background: #ffffffd3;
+      }
+
+      #content .block {
+        position: relative;
+        padding: 5px;
+        margin-left: -(dialogwidth/2);
+        margin-top: -(dialogheight/2);
+        background: #ffffffd3;
+
+      }
     </style>
-    <link rel="stylesheet" href="w3.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js "></script>
+    <link rel="stylesheet" href="styles/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/css/w3.css">
   </head>
 
   <body style="background-color:rgb(156, 150, 192);">
@@ -63,7 +114,6 @@
           </tbody>
         </table>
       </div>
-
       <div class="top">
         <ul class="w3-navbar w3-medium w3-white w3-card-2 w3-left-align">
           <li class="w3-hide-medium w3-hide-large w3-black w3-opennav w3-right"></li>
@@ -100,531 +150,401 @@
         </ul>
       </div>
       <h1 align="center">Placement Record for 2019-2020</h1>
-      <table class="table table-striped">
-        <thead class="">
-          <tr>
-            <th scope="col">S No</th>
-            <th scope="col">Name of the Company</th>
-            <th scope="col">Number of Selects</th>
-            <th scope="col">Internship Per Month</th>
-            <th scope="col">CTC (LPA)</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>1</td>
-            <td>Microsoft</td>
-            <td>1</td>
-            <td>80000</td>
-            <td>41</td>
-          </tr>
-          <tr>
-            <td>2</td>
-            <td>Google</td>
-            <td>1</td>
-            <td>Direct Joining</td>
-            <td>31</td>
-          </tr>
-          <tr>
-            <td>3</td>
-            <td>Amazon SDE</td>
-            <td>12</td>
-            <td>60000</td>
-            <td>30</td>
-          </tr>
-          <tr>
-            <td>4</td>
-            <td>Commvault</td>
-            <td>1</td>
-            <td>Direct Joining</td>
-            <td>15.5</td>
-          </tr>
-          <tr>
-            <td>5</td>
-            <td>Salesforce</td>
-            <td>4</td>
-            <td>30000</td>
-            <td>13</td>
-          </tr>
-          <tr>
-            <td>6</td>
-            <td>Amazon(Programmer Analyst)</td>
-            <td>2</td>
-            <td>30000</td>
-            <td>10</td>
-          </tr>
-          <tr>
-            <td>7</td>
-            <td>Byju's</td>
-            <td>4</td>
-            <td>25000</td>
-            <td>10</td>
-          </tr>
-          <tr>
-            <td>8</td>
-            <td>Persistent(Srujana)</td>
-            <td>1</td>
-            <td>10000</td>
-            <td>8.5</td>
-          </tr>
-          <tr>
-            <td>9</td>
-            <td>Darwin Box</td>
-            <td>3</td>
-            <td>15000</td>
-            <td>8.4</td>
-          </tr>
-          <tr>
-            <td>10</td>
-            <td>DBS</td>
-            <td>6</td>
-            <td>Direct Joining</td>
-            <td>8</td>
-          </tr>
-          <tr>
-            <td>11</td>
-            <td>Kony</td>
-            <td>4</td>
-            <td>25000</td>
-            <td>7.2</td>
-          </tr>
-          <tr>
-            <td>12</td>
-            <td>Opentext</td>
-            <td>35</td>
-            <td>15000</td>
-            <td>7.1</td>
-          </tr>
-          <tr>
-            <td>13</td>
-            <td>NCR</td>
-            <td>19</td>
-            <td>35000</td>
-            <td>7</td>
-          </tr>
-          <tr>
-            <td>14</td>
-            <td>TCS Digital</td>
-            <td>6</td>
-            <td>Direct Joining</td>
-            <td>7</td>
-          </tr>
-          <tr>
-            <td>15</td>
-            <td>Zemoso Labs</td>
-            <td>9</td>
-            <td>20000</td>
-            <td>6.9</td>
-          </tr>
-          <tr>
-            <td>16</td>
-            <td>Persistent(Viveka)</td>
-            <td>2</td>
-            <td>10000</td>
-            <td>6.5</td>
-          </tr>
-          <tr>
-            <td>17</td>
-            <td>Virtusa Codethon</td>
-            <td>14</td>
-            <td>5000</td>
-            <td>6.2</td>
-          </tr>
-          <tr>
-            <td>18</td>
-            <td>GreyAmp</td>
-            <td>2</td>
-            <td>15000</td>
-            <td>6</td>
-          </tr>
-          <tr>
-            <td>19</td>
-            <td>EPAM</td>
-            <td>20</td>
-            <td>Direct Joining</td>
-            <td>6</td>
-          </tr>
-          <tr>
-            <td>20</td>
-            <td>MAQ</td>
-            <td>4</td>
-            <td>36000</td>
-            <td>6</td>
-          </tr>
-          <tr>
-            <td>21</td>
-            <td>Kruzr Corporation</td>
-            <td>1</td>
-            <td>15000</td>
-            <td>6</td>
-          </tr>
-          <tr>
-            <td>22</td>
-            <td>Leoforce</td>
-            <td>6</td>
-            <td>25000</td>
-            <td>6</td>
-          </tr>
-          <tr>
-            <td>23</td>
-            <td>Adtran</td>
-            <td>3</td>
-            <td>20000</td>
-            <td>5.5</td>
-          </tr>
-          <tr>
-            <td>24</td>
-            <td>Netcracker</td>
-            <td>10</td>
-            <td>25000</td>
-            <td>5.5</td>
-          </tr>
-          <tr>
-            <td>25</td>
-            <td>EIS</td>
-            <td>9</td>
-            <td>20000</td>
-            <td>5</td>
-          </tr>
-          <tr>
-            <td>26</td>
-            <td>GGK</td>
-            <td>13</td>
-            <td>20000</td>
-            <td>5</td>
-          </tr>
-          <tr>
-            <td>27</td>
-            <td>Grey Campus</td>
-            <td>6</td>
-            <td>20000</td>
-            <td>5</td>
-          </tr>
-          <tr>
-            <td>28</td>
-            <td>TA Digital</td>
-            <td>6</td>
-            <td>Direct Joining</td>
-            <td>5</td>
-          </tr>
-          <tr>
-            <td>29</td>
-            <td>ZeroCodeHR</td>
-            <td>8</td>
-            <td>20000</td>
-            <td>5</td>
-          </tr>
-          <tr>
-            <td>30</td>
-            <td>ADP</td>
-            <td>8</td>
-            <td>Direct Joining</td>
-            <td>5</td>
-          </tr>
-          <tr>
-            <td>31</td>
-            <td>HSO INDIA</td>
-            <td>4</td>
-            <td>20000</td>
-            <td>5</td>
-          </tr>
-          <tr>
-            <td>32</td>
-            <td>Value Momentum(Premium)</td>
-            <td>4</td>
-            <td>Direct Joining</td>
-            <td>5</td>
-          </tr>
-          <tr>
-            <td>33</td>
-            <td>Rockwell Collins</td>
-            <td>1</td>
-            <td>Direct Joining</td>
-            <td>4.8</td>
-          </tr>
-          <tr>
-            <td>34</td>
-            <td>Value Labs</td>
-            <td>3</td>
-            <td>15000</td>
-            <td>4.5</td>
-          </tr>
-          <tr>
-            <td>35</td>
-            <td>Techolution</td>
-            <td>2</td>
-            <td>15000</td>
-            <td>4.5</td>
-          </tr>
-          <tr>
-            <td>36</td>
-            <td>Persistent</td>
-            <td>11</td>
-            <td>10000</td>
-            <td>4.4</td>
-          </tr>
-          <tr>
-            <td>37</td>
-            <td>IBM</td>
-            <td>1</td>
-            <td>Direct Joining</td>
-            <td>4.2</td>
-          </tr>
-          <tr>
-            <td>38</td>
-            <td>Deloitte</td>
-            <td>4</td>
-            <td>Direct Joining</td>
-            <td>4.13</td>
-          </tr>
-          <tr>
-            <td>39</td>
-            <td>Seneca Global</td>
-            <td>2</td>
-            <td>12000</td>
-            <td>4.03</td>
-          </tr>
-          <tr>
-            <td>40</td>
-            <td>Technovert</td>
-            <td>6</td>
-            <td>12000</td>
-            <td>4</td>
-          </tr>
-          <tr>
-            <td>41</td>
-            <td>CTS</td>
-            <td>26</td>
-            <td>Direct Joining</td>
-            <td>4</td>
-          </tr>
-          <tr>
-            <td>42</td>
-            <td>Virtusa</td>
-            <td>53</td>
-            <td>Direct Joining</td>
-            <td>3.6</td>
-          </tr>
-          <tr>
-            <td>43</td>
-            <td>Zen Technologies</td>
-            <td>4</td>
-            <td>12000</td>
-            <td>3.6</td>
-          </tr>
-          <tr>
-            <td>44</td>
-            <td>Value Momentum</td>
-            <td>36</td>
-            <td>15000</td>
-            <td>3.6</td>
-          </tr>
-          <tr>
-            <td>45</td>
-            <td>Jade Global</td>
-            <td>9</td>
-            <td>15000</td>
-            <td>3.6</td>
-          </tr>
-          <tr>
-            <td>46</td>
-            <td>NTT Data</td>
-            <td>5</td>
-            <td>Direct Joining</td>
-            <td>3.6</td>
-          </tr>
-          <tr>
-            <td>47</td>
-            <td>Rythmos</td>
-            <td>4</td>
-            <td>15000</td>
-            <td>3.6</td>
-          </tr>
-          <tr>
-            <td>48</td>
-            <td>Modak Analytics</td>
-            <td>4</td>
-            <td>15000</td>
-            <td>3.6</td>
-          </tr>
-          <tr>
-            <td>49</td>
-            <td>CGI</td>
-            <td>7</td>
-            <td>Direct Joining</td>
-            <td>3.6</td>
-          </tr>
-          <tr>
-            <td>50</td>
-            <td>Innovacx</td>
-            <td>5</td>
-            <td>10000</td>
-            <td>3.6</td>
-          </tr>
-          <tr>
-            <td>51</td>
-            <td>CloudIO</td>
-            <td>7</td>
-            <td>Direct Joining</td>
-            <td>3.5</td>
-          </tr>
-          <tr>
-            <td>52</td>
-            <td>XIT</td>
-            <td>4</td>
-            <td>10000</td>
-            <td>3.5</td>
-          </tr>
-          <tr>
-            <td>53</td>
-            <td>Orbees</td>
-            <td>3</td>
-            <td>10000</td>
-            <td>3.5</td>
-          </tr>
-          <tr>
-            <td>54</td>
-            <td>Vistex</td>
-            <td>3</td>
-            <td>15000</td>
-            <td>3.5</td>
-          </tr>
-          <tr>
-            <td>55</td>
-            <td>Tech Mahindra</td>
-            <td>9</td>
-            <td>Direct Joining</td>
-            <td>3.5</td>
-          </tr>
-          <tr>
-            <td>56</td>
-            <td>Wipro</td>
-            <td>1</td>
-            <td>Direct Joining</td>
-            <td>3.4</td>
-          </tr>
-          <tr>
-            <td>57</td>
-            <td>TCS</td>
-            <td>86</td>
-            <td>Direct Joining</td>
-            <td>3.3</td>
-          </tr>
-          <tr>
-            <td>58</td>
-            <td>ZENSAR</td>
-            <td>38</td>
-            <td>Direct Joining</td>
-            <td>3.2</td>
-          </tr>
-          <tr>
-            <td>59</td>
-            <td>Techwave</td>
-            <td>6</td>
-            <td>5000</td>
-            <td>3</td>
-          </tr>
-          <tr>
-            <td>60</td>
-            <td>The Chitrakars</td>
-            <td>5</td>
-            <td>10000</td>
-            <td>3</td>
-          </tr>
-          <tr>
-            <td>61</td>
-            <td>Tetrus Corp</td>
-            <td>2</td>
-            <td>10000</td>
-            <td>3</td>
-          </tr>
-          <tr>
-            <td>62</td>
-            <td>Modak Analytics B.A</td>
-            <td>3</td>
-            <td>10000</td>
-            <td>3</td>
-          </tr>
-          <tr>
-            <td>63</td>
-            <td>Lohren IT</td>
-            <td>1</td>
-            <td>10000</td>
-            <td>3</td>
-          </tr>
-          <tr>
-            <td>64</td>
-            <td>Caliber Technologies</td>
-            <td>6</td>
-            <td>12000</td>
-            <td>3</td>
-          </tr>
-          <tr>
-            <td>65</td>
-            <td>Think Tankers</td>
-            <td>1</td>
-            <td>12000</td>
-            <td>3</td>
-          </tr>
-          <tr>
-            <td>66</td>
-            <td>KTREE</td>
-            <td>1</td>
-            <td>12000</td>
-            <td>3</td>
-          </tr>
-          <tr>
-            <td>67</td>
-            <td>GenoParadigm</td>
-            <td>2</td>
-            <td>15000</td>
-            <td>3</td>
-          </tr>
-          <tr>
-            <td>68</td>
-            <td>Apptmyz</td>
-            <td>4</td>
-            <td>12000</td>
-            <td>2.8</td>
-          </tr>
-          <tr>
-            <td>69</td>
-            <td>BKFS</td>
-            <td>7</td>
-            <td>12000</td>
-            <td>2.8</td>
-          </tr>
-          <tr>
-            <td>70</td>
-            <td>Metrix Lab</td>
-            <td>4</td>
-            <td>23000</td>
-            <td>2.8</td>
-          </tr>
-          <tr>
-            <td>71</td>
-            <td>GenyMedium</td>
-            <td>2</td>
-            <td>10000</td>
-            <td>2.5</td>
-          </tr>
-          <tr>
-            <td>72</td>
-            <td>Intellect Design</td>
-            <td>1</td>
-            <td>12000</td>
-            <td>2.5</td>
-          </tr>
-          <tr>
-            <td>73</td>
-            <td>Genpact(Oracle Apps Service Line)</td>
-            <td>5</td>
-            <td>Direct Joining</td>
-            <td>2.5</td>
-          </tr>
-        </tbody>
-      </table>
-
+      <div class="placements">
+        <table id="pmnt-table">
+          <thead>
+            <tr class="pmnts">
+              <th class="pmnts">S No</th>
+              <th class="pmnts">Name of the Company</th>
+              <th class="pmnts">Number of Selects</th>
+              <th class="pmnts">Internship Per Month</th>
+              <th class="pmnts">CTC (LPA)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="pmnts">
+              <th class="pmnts">1</th>
+              <th class="pmnts">Microsoft</th>
+              <th class="pmnts">1</th>
+              <th class="pmnts">80000</th>
+              <th class="pmnts">41</th>
+            </tr>
+            <tr class="pmnts">
+              <th class="pmnts">2</th>
+              <th class="pmnts">Google</th>
+              <th class="pmnts">1</th>
+              <th class="pmnts">Direct Joining</th>
+              <th class="pmnts">31</th>
+            </tr>
+            <tr class="pmnts">
+              <th class="pmnts">3</th>
+              <th class="pmnts">Hitachi</th>
+              <th class="pmnts">12</th>
+              <th class="pmnts">60000</th>
+              <th class="pmnts">30</th>
+            </tr>
+            <tr class="pmnts">
+              <th class="pmnts">4</th>
+              <th class="pmnts">Commvault</th>
+              <th class="pmnts">1</th>
+              <th class="pmnts">Direct Joining</th>
+              <th class="pmnts">15.5</th>
+            </tr>
+            <tr class="pmnts">
+              <th class="pmnts">5</th>
+              <th class="pmnts">Salesforce</th>
+              <th class="pmnts">4</th>
+              <th class="pmnts">30000</th>
+              <th class="pmnts">13</th>
+            </tr>
+            <tr class="pmnts">
+              <th class="pmnts">6</th>
+              <th class="pmnts">Amazon(Programmer Analyst)</th>
+              <th class="pmnts">2</th>
+              <th class="pmnts">30000</th>
+              <th class="pmnts">10</th>
+            </tr>
+            <tr class="pmnts">
+              <th class="pmnts">7</th>
+              <th class="pmnts">Byju's</th>
+              <th class="pmnts">4</th>
+              <th class="pmnts">25000</th>
+              <th class="pmnts">10</th>
+            </tr>
+            <tr class="pmnts">
+              <th class="pmnts">8</th>
+              <th class="pmnts">Persistent(Srujana)</th>
+              <th class="pmnts">1</th>
+              <th class="pmnts">10000</th>
+              <th class="pmnts">8.5</th>
+            </tr>
+            <tr class="pmnts">
+              <th class="pmnts">9</th>
+              <th class="pmnts">Darwin Box</th>
+              <th class="pmnts">3</th>
+              <th class="pmnts">15000</th>
+              <th class="pmnts">8.4</th>
+            </tr>
+            <tr class="pmnts">
+              <th class="pmnts">10</th>
+              <th class="pmnts">DBS</th>
+              <th class="pmnts">6</th>
+              <th class="pmnts">Direct Joining</th>
+              <th class="pmnts">8</th>
+            </tr>
+            <tr class="pmnts">
+              <th class="pmnts">11</th>
+              <th class="pmnts">Kony</th>
+              <th class="pmnts">4</th>
+              <th class="pmnts">25000</th>
+              <th class="pmnts">7.2</th>
+            </tr>
+            <tr class="pmnts">
+              <th class="pmnts">12</th>
+              <th class="pmnts">Opentext</th>
+              <th class="pmnts">35</th>
+              <th class="pmnts">15000</th>
+              <th class="pmnts">7.1</th>
+            </tr>
+            <tr class="pmnts">
+              <th class="pmnts">13</th>
+              <th class="pmnts">NCR</th>
+              <th class="pmnts">19</th>
+              <th class="pmnts">35000</th>
+              <th class="pmnts">7</th>
+            </tr>
+            <tr class="pmnts">
+              <th class="pmnts">14</th>
+              <th class="pmnts">TCS Digital</th>
+              <th class="pmnts">6</th>
+              <th class="pmnts">Direct Joining</th>
+              <th class="pmnts">7</th>
+            </tr>
+            <tr class="pmnts">
+              <th class="pmnts">15</th>
+              <th class="pmnts">Zemoso Labs</th>
+              <th class="pmnts">9</th>
+              <th class="pmnts">20000</th>
+              <th class="pmnts">6.9</th>
+            </tr>
+            <tr class="pmnts">
+              <th class="pmnts">16</th>
+              <th class="pmnts">Persistent(Viveka)</th>
+              <th class="pmnts">2</th>
+              <th class="pmnts">10000</th>
+              <th class="pmnts">6.5</th>
+            </tr>
+            <tr class="pmnts">
+              <th class="pmnts">17</th>
+              <th class="pmnts">Virtusa Codethon</th>
+              <th class="pmnts">14</th>
+              <th class="pmnts">5000</th>
+              <th class="pmnts">6.2</th>
+            </tr>
+            <tr class="pmnts">
+              <th class="pmnts">18</th>
+              <th class="pmnts">GreyAmp</th>
+              <th class="pmnts">2</th>
+              <th class="pmnts">15000</th>
+              <th class="pmnts">6</th>
+            </tr>
+            <tr class="pmnts">
+              <th class="pmnts">19</th>
+              <th class="pmnts">EPAM</th>
+              <th class="pmnts">20</th>
+              <th class="pmnts">Direct Joining</th>
+              <th class="pmnts">6</th>
+            </tr>
+            <tr class="pmnts">
+              <th class="pmnts">20</th>
+              <th class="pmnts">MAQ</th>
+              <th class="pmnts">4</th>
+              <th class="pmnts">36000</th>
+              <th class="pmnts">6</th>
+            </tr>
+            <tr class="pmnts">
+              <th class="pmnts">21</th>
+              <th class="pmnts">Kruzr Corporation</th>
+              <th class="pmnts">1</th>
+              <th class="pmnts">15000</th>
+              <th class="pmnts">6</th>
+            </tr>
+            <tr class="pmnts">
+              <th class="pmnts">22</th>
+              <th class="pmnts">Leoforce</th>
+              <th class="pmnts">6</th>
+              <th class="pmnts">25000</th>
+              <th class="pmnts">6</th>
+            </tr>
+            <tr class="pmnts">
+              <th class="pmnts">23</th>
+              <th class="pmnts">Adtran</th>
+              <th class="pmnts">3</th>
+              <th class="pmnts">20000</th>
+              <th class="pmnts">5.5</th>
+            </tr>
+            <tr class="pmnts">
+              <th class="pmnts">24</th>
+              <th class="pmnts">Netcracker</th>
+              <th class="pmnts">10</th>
+              <th class="pmnts">25000</th>
+              <th class="pmnts">5.5</th>
+            </tr>
+            <tr class="pmnts">
+              <th class="pmnts">25</th>
+              <th class="pmnts">EIS</th>
+              <th class="pmnts">9</th>
+              <th class="pmnts">20000</th>
+              <th class="pmnts">5</th>
+            </tr>
+            <tr class="pmnts">
+              <th class="pmnts">26</th>
+              <th class="pmnts">GGK</th>
+              <th class="pmnts">13</th>
+              <th class="pmnts">20000</th>
+              <th class="pmnts">5</th>
+            </tr>
+            <tr class="pmnts">
+              <th class="pmnts">27</th>
+              <th class="pmnts">Grey Campus</th>
+              <th class="pmnts">6</th>
+              <th class="pmnts">20000</th>
+              <th class="pmnts">5</th>
+            </tr>
+            <tr class="pmnts">
+              <th class="pmnts">28</th>
+              <th class="pmnts">TA Digital</th>
+              <th class="pmnts">6</th>
+              <th class="pmnts">Direct Joining</th>
+              <th class="pmnts">5</th>
+            </tr>
+            <tr class="pmnts">
+              <th class="pmnts">29</th>
+              <th class="pmnts">ZeroCodeHR</th>
+              <th class="pmnts">8</th>
+              <th class="pmnts">20000</th>
+              <th class="pmnts">5</th>
+            </tr>
+            <tr class="pmnts">
+              <th class="pmnts">30</th>
+              <th class="pmnts">ADP</th>
+              <th class="pmnts">8</th>
+              <th class="pmnts">Direct Joining</th>
+              <th class="pmnts">5</th>
+            </tr>
+            <tr class="pmnts">
+              <th class="pmnts">31</th>
+              <th class="pmnts">HSO INDIA</th>
+              <th class="pmnts">4</th>
+              <th class="pmnts">20000</th>
+              <th class="pmnts">5</th>
+            </tr>
+            <tr class="pmnts">
+              <th class="pmnts">32</th>
+              <th class="pmnts">Value Momentum(Premium)</th>
+              <th class="pmnts">4</th>
+              <th class="pmnts">Direct Joining</th>
+              <th class="pmnts">5</th>
+            </tr>
+            <tr class="pmnts">
+              <th class="pmnts">33</th>
+              <th class="pmnts">Rockwell Collins</th>
+              <th class="pmnts">1</th>
+              <th class="pmnts">Direct Joining</th>
+              <th class="pmnts">4.8</th>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div id="content">
+        <div id="carousel" class="carousel slide" data-ride="carousel" data-interval="2000">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-md-4">
+                  <img class="d-block" src="images/r1.jpg" alt="First slide">
+                </div>
+                <div class="col-md-4">
+                  <img class="d-block" src="images/r2.jpg" alt="Second slide">
+                </div>
+                <div class="col-md-4">
+                  <img class="d-block" src="images/r3.jpg" alt="Third slide">
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-4">
+                  <img class="d-block" src="images/r4.jpg" alt="First slide">
+                </div>
+                <div class="col-md-4">
+                  <img class="d-block" src="images/r5.jpg" alt="Second slide">
+                </div>
+                <div class="col-md-4">
+                  <img class="d-block" src="images/r6.jpg" alt="Third slide">
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-4">
+                  <img class="d-block" src="images/r7.jpg" alt="First slide">
+                </div>
+                <div class="col-md-4">
+                  <img class="d-block" src="images/r8.jpg" alt="Second slide">
+                </div>
+                <div class="col-md-4">
+                  <img class="d-block" src="images/r9.jpg" alt="Third slide">
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-4">
+                  <img class="d-block" src="images/r10.jpg" alt="First slide">
+                </div>
+                <div class="col-md-4">
+                  <img class="d-block" src="images/r11.jpg" alt="Second slide">
+                </div>
+                <div class="col-md-4">
+                  <img class="d-block" src="images/r12.jpg" alt="Third slide">
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-4">
+                  <img class="d-block" src="images/r13.jpg" alt="First slide">
+                </div>
+                <div class="col-md-4">
+                  <img class="d-block" src="images/r14.jpg" alt="Second slide">
+                </div>
+                <div class="col-md-4">
+                  <img class="d-block" src="images/r15.jpg" alt="Third slide">
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-4">
+                  <img class="d-block" src="images/r16.jpg" alt="First slide">
+                </div>
+                <div class="col-md-4">
+                  <img class="d-block" src="images/r17.jpg" alt="Second slide">
+                </div>
+                <div class="col-md-4">
+                  <img class="d-block" src="images/r18.jpg" alt="Third slide">
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-4">
+                  <img class="d-block" src="images/r19.jpg" alt="First slide">
+                </div>
+                <div class="col-md-4">
+                  <img class="d-block" src="images/r20.jpg" alt="Second slide">
+                </div>
+                <div class="col-md-4">
+                  <img class="d-block" src="images/r21.jpg" alt="Third slide">
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-4">
+                  <img class="d-block" src="images/r22.jpg" alt="First slide">
+                </div>
+                <div class="col-md-4">
+                  <img class="d-block" src="images/r23.jpg" alt="Second slide">
+                </div>
+                <div class="col-md-4">
+                  <img class="d-block" src="images/r24.jpg" alt="Third slide">
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-4">
+                  <img class="d-block" src="images/r25.jpg" alt="First slide">
+                </div>
+                <div class="col-md-4">
+                  <img class="d-block" src="images/r26.jpg" alt="Second slide">
+                </div>
+                <div class="col-md-4">
+                  <img class="d-block" src="images/r27.jpg" alt="Third slide">
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-4">
+                  <img class="d-block" src="images/r28.jpg" alt="First slide">
+                </div>
+                <div class="col-md-4">
+                  <img class="d-block" src="images/r29.jpg" alt="Second slide">
+                </div>
+                <div class="col-md-4">
+                  <img class="d-block" src="images/r30.jpg" alt="Third slide">
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-4">
+                  <img class="d-block" src="images/r31.jpg" alt="First slide">
+                </div>
+                <div class="col-md-4">
+                  <img class="d-block" src="images/r32.jpg" alt="Second slide">
+                </div>
+                <div class="col-md-4">
+                  <img class="d-block" src="images/r33.jpg" alt="Third slide">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </body>
 
   </html>
