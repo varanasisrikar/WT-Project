@@ -13,6 +13,7 @@
         top: 20%;
         left: 40%;
         background: #2f0952d3;
+        color: rgb(35, 209, 128);
       }
 
       .form-input,
@@ -37,12 +38,12 @@
       }
 
       #sitheader .sit {
-        font-size: large;
+        font-size: x-large;
         padding: 10px;
       }
 
       #sitheader .address {
-        font-size: small;
+        font-size: large;
         padding: 5px;
       }
 
@@ -72,12 +73,7 @@
         background: #ffffffd3;
       }
 
-      #time-table {
-        border-collapse: collapse;
-        padding: 5px;
-      }
-
-      .depts {
+      .exmnts {
         width: 400px;
         height: 40px;
         background-color: #ffffffd3;
@@ -86,6 +82,31 @@
         margin: 5px;
         color: #2f0952d3;
         font-weight: 100;
+      }
+
+      #exmnt-table {
+        border-collapse: collapse;
+        padding: 5px;
+      }
+
+      #content {
+        position: relative;
+        width: 84%;
+        height: 70%;
+        top: 20%;
+        left: 5%;
+        margin-left: -(dialogwidth/2);
+        margin-top: -(dialogheight/2);
+        background: #ffffffd3;
+      }
+
+      #content .block {
+        position: relative;
+        padding: 5px;
+        margin-left: -(dialogwidth/2);
+        margin-top: -(dialogheight/2);
+        background: #ffffffd3;
+
       }
 
       .sign_up_btn {
@@ -184,55 +205,15 @@
         </div>
         <hr class="line" align="center">
         <div id="signup" align="center">
-          <label for="sign_up_btn">Not Registered?
-          </label>
+          <label for="sign_up_btn">Not Registered?</label>
           <input type="submit" id="sign_up_btn" value="Sign Up"/>
         </div>
       </div>
     </form>
-    <h1 align="center">Departments</h1>
-    <div class="departments">
-      <table id="time-table">
-        <tr style="background-color: #a172dd28;color: black; margin: 10px;">
-          <th class="depts" style="color:rgb(0, 0, 0) !important">
-            Department</th>
-          <th class="depts" style="color:rgb(0, 0, 0) !important">
-            Info</th>
-          <th class="depts" style="color:rgb(0, 0, 0) !important">
-            Seats</th>
-        </tr>
-        <tr class="depts">
-          <th class="depts">
-            CSE</th>
-          <th class="depts">
-            Computer Science Engineering</th>
-          <th class="depts">240</th>
-        </tr>
-        <tr class="depts">
-          <th class="depts">
-            ML
-          </th>
-          <th class="depts">
-            Machine Learning</th>
-          <th class="depts">120</th>
-        </tr>
-        <tr class="depts">
-          <th class="depts">
-            IT</th>
-          <th class="depts">
-            Information Technology</th>
-          <th class="depts">120</th>
-        </tr>
-        <tr class="depts">
-          <th class="depts">
-            ECE</th>
-          <th class="depts">
-            Electronics</th>
-          <th class="depts">80</th>
-        </tr>
-      </table>
+    <h1 align="center">Exam Notifications</h1>
+    <div id="content">
+      
     </div>
-
   </body>
 
 </html>
