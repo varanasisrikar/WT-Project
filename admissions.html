@@ -30,7 +30,85 @@
         font-size: xx-large;
         padding: 5px;
       }
+
+      .intake {
+        position: relative;
+        width: 75%;
+        height: 35%;
+        top: 25%;
+        left: 10%;
+        margin-left: -(dialogwidth/2);
+        margin-top: -(dialogheight/2);
+        background: #ffffffd3;
+      }
+
+      .ints {
+        width: 400px;
+        height: 40px;
+        background-color: #ffffffd3;
+        border: 1px solid #6621c028;
+        padding: 10px;
+        margin: 5px;
+        color: #2f0952d3;
+        font-weight: 100;
+      }
+
+      #int-table {
+        border-collapse: collapse;
+        padding: 5px;
+      }
+
+      .feestr {
+        position: relative;
+        width: 75%;
+        height: 35%;
+        top: 25%;
+        left: 10%;
+        margin-left: -(dialogwidth/2);
+        margin-top: -(dialogheight/2);
+        background: #ffffffd3;
+      }
+
+      .fees {
+        width: 400px;
+        height: 40px;
+        background-color: #ffffffd3;
+        border: 1px solid #6621c028;
+        padding: 10px;
+        margin: 5px;
+        color: #2f0952d3;
+        font-weight: 100;
+      }
+
+      #fee-table {
+        border-collapse: collapse;
+        padding: 5px;
+      }
+
+      #content {
+        position: relative;
+        width: 84%;
+        height: 70%;
+        top: 20%;
+        left: 5%;
+        margin-left: -(dialogwidth/2);
+        margin-top: -(dialogheight/2);
+        background: #ffffffd3;
+      }
+
+      #content .block {
+        position: relative;
+        padding: 5px;
+        margin-left: -(dialogwidth/2);
+        margin-top: -(dialogheight/2);
+        background: #ffffffd3;
+
+      }
     </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js "></script>
+    <link rel="stylesheet" href="styles/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles/css/w3.css">
   </head>
 
@@ -61,7 +139,6 @@
           </tbody>
         </table>
       </div>
-
       <div class="top">
         <ul class="w3-navbar w3-medium w3-white w3-card-2 w3-left-align">
           <li class="w3-hide-medium w3-hide-large w3-black w3-opennav w3-right"></li>
@@ -97,7 +174,114 @@
           </li>
         </ul>
       </div>
-    </div>
-  </body>
+      <h1 align="center">Admissions</h1>
+      <div id="content">
+        <p style="color : #2f0952d3; font-size: larger">Courses Offered</p>
+        <hr>
+        <p align="left" style="color:rgba(72, 63, 126, 0.904); font-weight: 400; font-size: large;">
+          The Following Programs are offered by SIT:
+        </p>
+        <div class="intake">
+          <table class="int-table">
+            <thead class="ints">
+              <tr class="ints">
+                <th class="ints">S.No</th>
+                <th class="ints">Degree</th>
+                <th class="ints">Course</th>
+                <th class="ints">Total Intake</th>
+                <th class="ints">Management/NRI Seats</th>
+                <th class="ints">Convener Seats</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="ints">
+                <th class="ints">1</td>
+                <th class="ints">B.Tech</td>
+                <th class="ints">Computer Science and Engineering</td>
+                <th class="ints">240</td>
+                <th class="ints">72</td>
+                <th class="ints">168</td>
+              </tr>
+              <tr class="ints">
+                <th class="ints">2</td>
+                <th class="ints">B.Tech</td>
+                <th class="ints">Computer Science and Engineering(Machine Learning)</td>
+                <th class="ints">120</td>
+                <th class="ints">36</td>
+                <th class="ints">84</td>
+              </tr>
+              <tr class="ints">
+                <th class="ints">3</td>
+                <th class="ints">B.Tech</td>
+                <th class="ints">Information Technology</td>
+                <th class="ints">120</td>
+                <th class="ints">36</td>
+                <th class="ints">84</td>
+              </tr>
+              <tr class="ints">
+                <th class="ints">4</td>
+                <th class="ints">B.Tech</td>
+                <th class="ints">Electronics and Communication Engineering</td>
+                <th class="ints">80</td>
+                <th class="ints">24</td>
+                <th class="ints">56</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <br>
+        <p style="color : #2f0952d3; font-size: larger">Admission Procedure</p>
+        <hr>
+        <p align="left" style="color:#2f0952d3; font-weight: 400; font-size: large;">B Tech Programs</p>
+        <p align="left" style="color:rgba(72, 63, 126, 0.904); font-weight: 400; font-size: large;">The Eligibility Criteria for Admission to B.Tech Program:</p>
+        <p align="left" style="color:rgba(72, 63, 126, 0.904); font-weight: 400; font-size: large;">
+          Admissions to the B.Tech Program are made along with the other Engineering colleges in the state through a common entrance test (EAMCET) conducted by the Govt. of Telangana State.
+        </p>
+        <p align="left" style="color:#2f0952d3; font-weight: 400; font-size: large;">Admission</p>
+        <ol type="1" align="left" style="color:rgba(72, 63, 126, 0.904); font-weight: 400; font-size: large;">
+          <li>70 % of the seats are allotted based on the merit in the EAMCET.</li>
+          <li>30 % of the seats are earmarked for Management/NRI candidates.</li>
+          <li>In addition to the above, Diploma holders are admitted in second year of B. Tech to the extent of 20% of intake based on the merit in the ECET, under lateral entry scheme.</li>
+        </ol>
+        <p style="color : #2f0952d3; font-size: larger">Fee Structure</p>
+        <hr>
+        <p align="left" style="color:#2f0952d3; font-weight: 400; font-size: large;">Year of Admission 2019-2020</p>
+        <div class="feestr">
+          <table class="fee-table">
+            <thead class="fees">
+              <tr class="fees">
+                <th class="fees">B.Tech</th>
+                <th class="fees">Ist Year(2019-20)</th>
+                <th class="fees">IInd Year(2020-21)</th>
+                <th class="fees">IIIrd Year(2021-22)</th>
+                <th class="fees">IVth Year(2022-23)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="fees">
+                <th class="fees">Tuition Fee</td>
+                <th class="fees">₹ 103,000</td>
+                <th class="fees">₹ 103,000</td>
+                <th class="fees">₹ 103,000</td>
+                <th class="fees">₹ 103,000</td>
+              </tr>
+              <tr class="fees">
+                <th class="fees">Special Fee</td>
+                <th class="fees">₹ 5,500</td>
+                <th class="fees">₹ 2,500</td>
+                <th class="fees">₹ 2,500</td>
+                <th class="fees">₹ 2,500</td>
+              </tr>
+              <tr class="fees">
+                <th class="fees">NBA Fee</td>
+                <th class="fees">₹ 3,000</td>
+                <th class="fees">₹ 3,000</td>
+                <th class="fees">₹ 3,000</td>
+                <th class="fees">₹ 3,000</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </body>
 
-</html>
+    </html>
